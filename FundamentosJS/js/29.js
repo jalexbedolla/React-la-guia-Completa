@@ -1,4 +1,4 @@
-/* fetch API */
+/* fetch API - Promises */
 
 const url = "https://jsonplaceholder.typicode.com/comments"
 
@@ -10,6 +10,6 @@ const consultarAPI = () => {
         console.log(comentarios)
       })
     })
-}
+} /* el .then significa que esta utilizando 'promises' */
 consultarAPI()
 
